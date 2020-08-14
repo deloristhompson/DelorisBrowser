@@ -26,6 +26,7 @@ namespace DelorisBrowser
         {
             webBrowser1.Navigate(textBoxURL.Text);
             webBrowser1.ScriptErrorsSuppressed = true;
+
         }
 
         private void FormMain_Load(object sender, EventArgs e)
