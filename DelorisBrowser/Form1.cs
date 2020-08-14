@@ -33,6 +33,7 @@ namespace DelorisBrowser
         {
             webBrowser1.Navigate(textBoxURL.Text);
             webBrowser1.ScriptErrorsSuppressed = true;
+
         }
     }
 }
